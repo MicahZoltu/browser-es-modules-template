@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "es2015",
+		"moduleResolution": "node",
+		"outDir": "output",
+		"rootDir": "source",
+		"strict": true,
+		"noEmitOnError": true,
+		"allowUmdGlobalAccess": true,
+		"lib": [ "dom", "es2015" ],
+		"plugins": [ { "transform": "@zoltu/typescript-transformer-append-js-extension/output/index.js", "after": true } ]
+	},
+	"include": [
+		"source/**/*.ts"
+	]
+}
