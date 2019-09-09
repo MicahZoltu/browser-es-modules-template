@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"es-module-shims": "0.4.2",
+		"es-module-shims": "0.4.3",
 		"knockout": "3.5.0"
 	},
 	"devDependencies": {
