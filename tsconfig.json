@@ -6,6 +6,8 @@
 		"outDir": "output",
 		"rootDir": "source",
 		"strict": true,
+		"sourceMap": true,
+		"inlineSources": true,
 		"noEmitOnError": true,
 		"allowUmdGlobalAccess": true,
 		"lib": [ "dom", "es2015" ],
